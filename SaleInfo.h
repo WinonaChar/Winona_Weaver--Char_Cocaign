@@ -12,6 +12,9 @@ class SaleInfo{
   void setSalesByDay(int daySales);
   void setSalesByWeek(int weekSales);
   void setSalesByMonth(int monthSales);
+  int GetSalesByDay();
+  int GetSalesByWeek();
+  int GetSalesByMonth();
   void GenerateSales();
 
   
