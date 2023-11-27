@@ -21,6 +21,13 @@ class Vehicle{
     void setDays(int userDys);
     void setPrice(int userPrice);
     void setVin(int userVin);
+    int getPrice();
+    int getYear();
+    int getDays();
+    string getMake();
+    string getModel();
+    string getColor();
+    string getVin();
     void PrintVehicle();
     void SearchByMake(string make);
     void SearchByColor(string color);
